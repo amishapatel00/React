@@ -1,0 +1,25 @@
+.user-container {
+  display: inline-flex; /* Forces cards to sit side-by-side like text words */
+  flex-direction: column; /* Keeps elements inside the card vertical */
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgb(205, 215, 215);
+  color: black;
+  border-radius: 5px;
+  border: 2px solid rgb(193, 184, 184);
+  padding: 20px;
+  margin-right: 20px; 
+  
+  width: 260px; 
+  vertical-align: top;
+}
+
+
+#image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover; 
+}
+
